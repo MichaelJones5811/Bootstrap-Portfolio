@@ -1,0 +1,109 @@
+body {
+font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+/*background: url("../images/christmasPic1.jpg");*/
+/*background: url("../images/img1.jpg");*/
+/*background: url(../images/backGroundPic2.jpg);*/
+background: url("../images/paisley-3.jpg");
+background-size: 	100%;
+background-repeat: no-repeat;
+font-size: 16px;
+color: #777;
+line-height: 34px;
+/*background-color: #ffffb3;*/
+}
+@keyframes example {
+	0%{background-color: 	#fff; left:0px; top:0px;}
+	25%{background-color: 	#e6e6ff;left:200px;top:0px;}
+	75%{background-color: 	#ccccff;left:200px;top:200px;}
+	100% {background-color: #ccffff;left:0px;top:0px;}	
+}
+.page-header{
+	/*font-family: 'Georgia', Times, 
+	Times New Roman, serif;*/
+	/*background-color: rgb(237,237,237);	*/
+	background-color: #fff;
+	margin-top: 0;
+	padding: 10px 0;
+}
+#logo {
+  width: 250px;
+  height: 90px;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  background: #4aaaa5;
+}
+nav {
+  float: right;
+  margin-top: 25px;
+}
+nav a {
+  font-weight: 700;	
+  display: inline-block;
+  margin-left: 15px;
+  padding-left: 15px;
+  color: #4aaaa5;
+  line-height: 18px;
+  border-left: 1px  #efefef;
+}
+.panel-default{
+	background-color:#ccffff;
+	animation-name: example;
+	 animation-duration: 4s;
+
+	border: ridge	3px;
+}
+.panel-heading{
+	background:#ccffff;
+	color: #777;
+	border-bottom: solid;
+
+}
+h3{
+	border-bottom:solid #4aaaa5;
+	padding: 7px;
+}
+.img {
+	width: 200px;
+	height:150px;
+	margin-left: 0
+
+}
+.socialIcons{
+	width: 50px;
+	height: 50px;
+}
+
+.leftMargin{
+	margin-left: 70px;
+}
+.form{
+	margin-bottom: 15px;
+}
+.content {
+  min-height: calc(100vh - 70px);
+}
+footer {
+	font-weight: 700;
+	padding: 30px 0;
+	font-size: 12px;
+	text-align: center;
+	background: #666;
+	border-top: 8px solid #4aaaa5;
+	color: black;
+	margin-bottom: 	0px;
+}
+.btnPadding{
+	padding-bottom: 10px;
+}
+.portPic img{
+	width: 	150px;
+	height: 125px;
+}
+.content {
+  min-height: calc(100vh - 70px);
+}
